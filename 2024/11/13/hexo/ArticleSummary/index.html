@@ -19,25 +19,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"githubhyh.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="莫使金樽空对月">
-<meta property="og:type" content="website">
-<meta property="og:title" content="愚人">
-<meta property="og:url" content="https://githubhyh.github.io/tags/Hexo/index.html">
+    <meta name="description" content="hexo+nexT，文章增加摘要。介绍了三种方式生成文章摘要">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo文章缩略显示">
+<meta property="og:url" content="https://githubhyh.github.io/2024/11/13/hexo/ArticleSummary/index.html">
 <meta property="og:site_name" content="愚人">
-<meta property="og:description" content="莫使金樽空对月">
+<meta property="og:description" content="hexo+nexT，文章增加摘要。介绍了三种方式生成文章摘要">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-11-13T10:22:49.000Z">
+<meta property="article:modified_time" content="2024-11-13T10:24:43.312Z">
 <meta property="article:author" content="YuHao Hu">
-<meta property="article:tag" content="Java">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://githubhyh.github.io/tags/Hexo/">
+<link rel="canonical" href="https://githubhyh.github.io/2024/11/13/hexo/ArticleSummary/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"tags/Hexo/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://githubhyh.github.io/2024/11/13/hexo/ArticleSummary/","path":"2024/11/13/hexo/ArticleSummary/","title":"Hexo文章缩略显示"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>标签: Hexo | 愚人</title>
+<title>Hexo文章缩略显示 | 愚人</title>
   
 
 
@@ -97,7 +99,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -110,6 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE%E7%94%9F%E6%88%90%E6%91%98%E8%A6%81%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">&lt;!--more--&gt; 指定位置生成摘要（推荐）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#front-matter%E4%B8%AD%E5%A2%9E%E5%8A%A0description"><span class="nav-number">2.</span> <span class="nav-text">front-matter中增加description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%91%98%E8%A6%81"><span class="nav-number">3.</span> <span class="nav-text">自动生成摘要</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -154,50 +157,116 @@
 
     </div>
 
-    <div class="main-inner tag posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">Hexo
-          <small>标签</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://githubhyh.github.io/2024/11/13/hexo/ArticleSummary/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="YuHao Hu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="愚人">
+      <meta itemprop="description" content="莫使金樽空对月">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Hexo文章缩略显示 | 愚人">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hexo文章缩略显示
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2024</span>
+
+      <time title="创建时间：2024-11-13 18:22:49 / 修改时间：18:24:43" itemprop="dateCreated datePublished" datetime="2024-11-13T18:22:49+08:00">2024-11-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>hexo+nexT，文章增加摘要。介绍了三种方式生成文章摘要</p>
+<span id="more"></span>
+
+<h2 id="指定位置生成摘要（推荐）"><a href="#指定位置生成摘要（推荐）" class="headerlink" title="&lt;!--more--&gt; 指定位置生成摘要（推荐）"></a><code>&lt;!--more--&gt;</code> 指定位置生成摘要（<strong>推荐</strong>）</h2><p>在你想生成摘要截止位置，插入<code>&lt;!--more--&gt;</code>，插入位置的前面内容就会生成摘要，发布后，只会显示摘要信息，点击阅览全文，才能看到全部文章信息</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">这是文章摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">这是文章主体内容</span><br></pre></td></tr></table></figure>
+
+<h2 id="front-matter中增加description"><a href="#front-matter中增加description" class="headerlink" title="front-matter中增加description"></a>front-matter中增加description</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 这是标题</span><br><span class="line">date: &#x27;这是时间信息&#x27;</span><br><span class="line">tags:</span><br><span class="line"><span class="bullet">-</span> testTag</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> [一级分类,二级分类]</span><br><span class="line"><span class="section">description: 这是文章摘要信息</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="自动生成摘要"><a href="#自动生成摘要" class="headerlink" title="自动生成摘要"></a>自动生成摘要</h2><p>在配置文件中_config.yml，指定自动生成特定长度的摘要</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">auto_excerpt:</span><br><span class="line">  enable: true</span><br><span class="line">  length: 150</span><br></pre></td></tr></table></figure>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-11-08T16:16:27+08:00"
-              content="2024-11-08">
-          11-08
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/11/08/hexo/HexoNexTGithub/" itemprop="url">
-            <span itemprop="name">Hexo+NexT+Github Pages build site</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/11/13/idea/viewSavedPassword/" rel="prev" title="IDEA和DataGrip如何查看保存的数据库密码">
+                  <i class="fa fa-angle-left"></i> IDEA和DataGrip如何查看保存的数据库密码
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
 
 </div>
   </main>
